@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9DAC98B21C2343190055317A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC98B11C2343190055317A /* main.m */; };
+		9DAC98BD1C2344FC0055317A /* JSONManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC98BC1C2344FC0055317A /* JSONManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		9DAC98AE1C2343190055317A /* ChicagoEmployeeSalariesConsoleVersion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChicagoEmployeeSalariesConsoleVersion; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAC98B11C2343190055317A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DAC98BB1C2344FC0055317A /* JSONManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONManager.h; sourceTree = "<group>"; };
+		9DAC98BC1C2344FC0055317A /* JSONManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				9DAC98B11C2343190055317A /* main.m */,
+				9DAC98BB1C2344FC0055317A /* JSONManager.h */,
+				9DAC98BC1C2344FC0055317A /* JSONManager.m */,
 			);
 			path = ChicagoEmployeeSalariesConsoleVersion;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DAC98B21C2343190055317A /* main.m in Sources */,
+				9DAC98BD1C2344FC0055317A /* JSONManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

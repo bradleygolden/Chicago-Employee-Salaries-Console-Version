@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "JSONManager.h"
+#import "DataTier.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -52,7 +52,7 @@ int main(int argc, const char * argv[]) {
         NSString *baseUrl = @"https://data.cityofchicago.org/resource/tt4n-kn4t.json?";
         
         // init json manager with base url for json database
-        JSONManager *dt = [[JSONManager alloc]initWithBaseUrl:baseUrl];
+        DataTier *dt = [[DataTier alloc]initWithBaseUrl:baseUrl];
         
         // build query - simulates a query request
         //NSString *query = [NSString stringWithFormat:@"$q=%@", fullName];
